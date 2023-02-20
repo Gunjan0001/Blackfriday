@@ -23,11 +23,10 @@ const Nav = () => {
                 </a>
               </li>
             </ul>
-
             <ul className="ps-0 mb-0 d-none d-lg-flex gap-4 align-items-center ">
               <li>
                 <a
-                  href="#"
+                  href="#header"
                   className="  ff_montserrat  fw_regular  fs_base text-white nav_links"
                 >
                   HOME
@@ -35,7 +34,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#shop"
                   className=" ff_montserrat  fw_regular  fs_base  text-white nav_links"
                 >
                   SHOP
@@ -43,7 +42,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#shop"
                   className=" ff_montserrat  fw_regular  fs_base  text-white nav_links"
                 >
                   ABOUT
@@ -59,7 +58,7 @@ const Nav = () => {
               </li>{" "}
               <li>
                 <a
-                  href="#"
+                  href="#faq"
                   className="  ff_montserrat  fw_regular  fs_base text-white nav_links"
                 >
                   FAQ
@@ -78,11 +77,10 @@ const Nav = () => {
                   <img src={deletebox} alt="dltbox" />{" "}
                 </a>
               </li>
-              <button className=" primary_btn ff_montserrat  fw_bold fs_md ">
-                SIGN IN
-              </button>
-            </ul>
-
+            </ul>{" "}
+            <button className=" primary_btn ff_montserrat  fw_bold fs_md ">
+              SIGN IN
+            </button>
             <button
               onClick={() => setopenNav(false)}
               className="d-flex justify-content-evenly flex-column d-lg-none menu_btn"

@@ -7,9 +7,12 @@ import teddy from "../assets/images/png/teddy.png";
 const Header = () => {
   return (
     <>
-      <section className="hero_background  min_vh_100 position-relative">
+      <section
+        className="hero_background  min_vh_100 position-relative overflow-hidden "
+        id="header"
+      >
         <div className="bg_secondary py-2 ">
-          <div className="position-absolute overlay d-none d-xl-none">
+          <div className="position-absolute overlay d-none d-xl-block w-100 z_index_1">
             <img src={overlays} alt="overlay" />
           </div>
           <Container>
@@ -33,22 +36,35 @@ const Header = () => {
             <Row className="align-items-center">
               <Col md={6}>
                 <div className="text-center text-md-start">
-                  <h2 className="ff_philosopher fw_bold fs_4xl text-white ">
-                    Setting a<span className="text_primary"> ‘High’</span>{" "}
-                    Standard
-                  </h2>
-                  <p className="common_para mw_503  mb-0">
-                    We at Purple Panda are passionate about becoming the best
-                    online weed dispensary Canada has ever seen. We believe in
-                    good products, fair pricing, and top-notch customer service
-                  </p>
-                  <button className=" primary_btn ff_montserrat  fw_bold fs_md mt-5">
-                    SIGN IN
-                  </button>{" "}
+                  <div
+                    data-aos="fade-right"
+                    data-aos-duration="500"
+                    data-aos-offset="250"
+                  >
+                    <h2 className="ff_philosopher fw_bold fs_4xl text-white ">
+                      Setting a<span className="text_primary"> ‘High’</span>{" "}
+                      Standard
+                    </h2>
+                    <p className="common_para mw_503  mb-0">
+                      We at Purple Panda are passionate about becoming the best
+                      online weed dispensary Canada has ever seen. We believe in
+                      good products, fair pricing, and top-notch customer
+                      service
+                    </p>
+                    <button className=" primary_btn ff_montserrat  fw_bold fs_md mt-5 z_index_2">
+                      SIGN IN
+                    </button>
+                  </div>
                 </div>
               </Col>
               <Col md={6}>
-                <img className="image_wh w-100" src={teddy} alt="teddy" />
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="250"
+                  data-aos-duration="500"
+                >
+                  <img className="image_wh w-100" src={teddy} alt="teddy" />
+                </div>
               </Col>
             </Row>
           </Container>

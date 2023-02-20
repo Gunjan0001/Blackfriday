@@ -1,10 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
+
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Nav from "./components/Nav";
+
 import Header from "./components/Header";
 import Mushroom from "./components/Mushroom";
 import About from "./components/About";
@@ -32,6 +33,7 @@ function App() {
   return (
     <>
       <Header />
+
       <Mushroom />
       <About />
       <Range />
