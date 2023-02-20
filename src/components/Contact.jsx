@@ -83,30 +83,30 @@ const Contact = () => {
                     htmlFor=""
                   >
                     <input
-                      className="w-50 blur_range rounded-2 px-4 py-2 me-2 mb-2 mb-sm-start common_para opacity_07"
+                      className="w-50 blur_range rounded-2 px-4 py-2 me-2 mb-2 mb-sm-start common_para opacity_07 outline_none"
                       type="text"
                       placeholder="First name"
                     />
 
                     <input
-                      className="w-50 blur_range rounded-2 px-4 py-2 common_para opacity_07"
+                      className="w-50 blur_range rounded-2 px-4 py-2 common_para opacity_07 outline_none"
                       type="text"
                       placeholder="Last name"
                     />
                   </label>
 
                   <label
-                    className="w-100 d-sm-flex flex-row justify-content-between mt-2 "
+                    className="w-100 d-sm-flex flex-row justify-content-between mt-2 outline_none "
                     htmlFor=""
                   >
                     <input
-                      className="w-50 blur_range rounded-2 px-4 py-2 me-2 mb-2 mb-sm-start common_para opacity_07"
+                      className="w-50 blur_range rounded-2 px-4 py-2 me-2 mb-2 mb-sm-start common_para opacity_07 outline_none"
                       type="text"
                       placeholder="Email address"
                     />
 
                     <input
-                      className="w-50 blur_range rounded-2 px-4 py-2 common_para opacity_07"
+                      className="w-50 blur_range rounded-2 px-4 py-2 common_para opacity_07 outline_none"
                       type="text"
                       placeholder="Phone number"
                     />
@@ -118,7 +118,7 @@ const Contact = () => {
                     cols="5"
                     rows="3"
                     placeholder="Message..."
-                    className="mt-2  w-100 blur_range px-4 py-2 mb-5 common_para opacity_07"
+                    className="mt-2  w-100 blur_range px-4 py-2 mb-5 common_para opacity_07 outline_none"
                   ></textarea>
 
                   <span className="">

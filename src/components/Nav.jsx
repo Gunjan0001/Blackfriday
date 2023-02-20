@@ -81,11 +81,11 @@ const Nav = () => {
                 <a href="#">
                   <img src={deletebox} alt="dltbox" />{" "}
                 </a>
-              </li>
+              </li>{" "}
+              <button className=" primary_btn ff_montserrat  fw_bold fs_md ">
+                SIGN IN
+              </button>
             </ul>{" "}
-            <button className=" primary_btn ff_montserrat  fw_bold fs_md ">
-              SIGN IN
-            </button>
             <button
               onClick={() => setopenNav(false)}
               className="d-flex justify-content-evenly flex-column d-lg-none menu_btn"

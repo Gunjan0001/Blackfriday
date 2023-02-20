@@ -18,7 +18,6 @@ const Mushroom = () => {
         </div>
         <Container>
           <Carousel className="d-sm-none">
-            {" "}
             <Carousel.Item>
               <div className="text-center">
                 <img className="w-100" src={mushroom} alt="mushroom" />
@@ -26,7 +25,7 @@ const Mushroom = () => {
                   Mushrooms
                 </p>
               </div>{" "}
-            </Carousel.Item>{" "}
+            </Carousel.Item>
             <Carousel.Item>
               <div className="text-center">
                 <img className="w-100" src={extracts} alt="extracts" />
@@ -34,7 +33,7 @@ const Mushroom = () => {
                   Extracts
                 </p>
               </div>
-            </Carousel.Item>{" "}
+            </Carousel.Item>
             <Carousel.Item>
               <div className="text-center">
                 <img className="w-100" src={vapes} alt="vapes" />
@@ -42,7 +41,7 @@ const Mushroom = () => {
                   Vapes & Accessories
                 </p>
               </div>
-            </Carousel.Item>{" "}
+            </Carousel.Item>
             <Carousel.Item>
               <div className="text-center">
                 <img className="w-100" src={cbd} alt="cbd" />
@@ -50,7 +49,7 @@ const Mushroom = () => {
                   CBD
                 </p>
               </div>
-            </Carousel.Item>{" "}
+            </Carousel.Item>
             <Carousel.Item>
               <div className="text-center">
                 <img className="w-100" src={edibiles} alt="edibiles" />
@@ -58,7 +57,7 @@ const Mushroom = () => {
                   Edibles
                 </p>
               </div>
-            </Carousel.Item>{" "}
+            </Carousel.Item>
             <Carousel.Item>
               <div className="text-center">
                 <img className="w-100" src={cannabis} alt="cannabis" />
@@ -66,7 +65,7 @@ const Mushroom = () => {
                   Cannabis
                 </p>
               </div>
-            </Carousel.Item>{" "}
+            </Carousel.Item>
             <Carousel.Item>
               <div className="text-center">
                 <img className="w-100" src={bulkorders} alt="bulkorders" />
@@ -120,7 +119,7 @@ const Mushroom = () => {
                   Edibles
                 </p>
               </div>
-            </div>{" "}
+            </div>
             <div className="col-auto">
               {" "}
               <div className="text-center">
@@ -129,7 +128,7 @@ const Mushroom = () => {
                   Cannabis
                 </p>
               </div>
-            </div>{" "}
+            </div>
             <div className="col-auto">
               {" "}
               <div className="text-center">

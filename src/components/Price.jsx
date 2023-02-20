@@ -6,7 +6,7 @@ import lowshadow from "../assets/images/png/lowshadow.png";
 const Price = () => {
   return (
     <>
-      <section className="background py-lg-5 position-relative overflow-hidden  ">
+      <section className="background py-lg-5 position-relative ">
         <div className="position-absolute priceshadow_position d-none d-md-block">
           <img src={priceshadow} alt="shadow" />
         </div>
@@ -41,13 +41,7 @@ const Price = () => {
             </Col>
             <Col sm={7} md={5}>
               <div className="position_xl_absolute price_position  ">
-                <div
-                  data-aos="zoom-in-left"
-                  data-aos-duration="500"
-                  data-aos-offset="250"
-                >
-                  <img className="w-100" src={price} alt="price" />
-                </div>
+                <img className="w-100" src={price} alt="price" />
               </div>
             </Col>
           </Row>

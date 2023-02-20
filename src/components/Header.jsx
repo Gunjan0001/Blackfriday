@@ -51,7 +51,7 @@ const Header = () => {
                       good products, fair pricing, and top-notch customer
                       service
                     </p>
-                    <button className=" primary_btn ff_montserrat  fw_bold fs_md mt-5 z_index_2">
+                    <button className=" primary_btn ff_montserrat  fw_bold fs_md mt-5 z_index_2 position-relative">
                       SIGN IN
                     </button>
                   </div>

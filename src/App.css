@@ -322,7 +322,7 @@
 
 .shadow_position {
   left: 0%;
-  bottom: -250px
+  bottom: -350px
 }
 
 /* about */
@@ -412,7 +412,8 @@
 }
 
 .z_index_2 {
-  z-index: 1 !important;
+  z-index: 2 !important;
+  position: relative;
 }
 
 
@@ -463,6 +464,10 @@
   border-radius: 10px;
 }
 
+.outline_none {
+  outline: none;
+}
+
 /* area */
 .w_636 {
   max-width: 636px;
@@ -506,7 +511,7 @@
 
 .priceshadow_position {
   right: 0%;
-  top: -29px;
+  top: -100px;
 }
 
 
@@ -517,7 +522,8 @@
 }
 
 .z_index_0 {
-  z-index: 0 !important;
+  z-index: 0;
+  position: relative;
 }
 
 
@@ -920,8 +926,11 @@
   }
 
   .price_position {
-    right: 0%;
+    /* right: 0%;
     top: -20px;
+    z-index: 2; */
+    right: 10px;
+    transform: translatey(-50%);
   }
 
   .position_xl_relative {
