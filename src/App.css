@@ -438,6 +438,31 @@
 
 }
 
+/* contact */
+.contact_background {
+  background-image: url(./assets//images/png/contactbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blur_range {
+  background: rgba(22, 15, 47, 0.5);
+  border: 1px solid #411A68;
+  backdrop-filter: blur(9px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 4px;
+}
+
+.contact_blur {
+  background: rgba(22, 15, 47, 0.5);
+  border: 1px solid #411A68;
+  backdrop-filter: blur(9px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
 /* area */
 .w_636 {
   max-width: 636px;

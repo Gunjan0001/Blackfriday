@@ -6,23 +6,9 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Header from "./components/Header";
-import Mushroom from "./components/Mushroom";
-import About from "./components/About";
-import Range from "./components/Range";
-import Delivery from "./components/Delivery";
-import Area from "./components/Area";
-import Price from "./components/Price";
-import Stroage from "./components/Stroage";
-import Orders from "./components/Orders";
-import Classifications from "./components/Classifications";
-import Items from "./components/Items";
-import News from "./components/News";
-import Teddy from "./components/Teddy";
-import Hours from "./components/Hours";
-import Footer from "./components/Footer";
-import Cannabis from "./components/Cannabis";
-import Alert from "./components/Alert";
+import { Route, Routes } from "react-router-dom";
+import Headpart from "./components/Headpart";
+import Main from "./components/Main";
 
 function App() {
   useEffect(() => {
@@ -32,24 +18,10 @@ function App() {
   }, []);
   return (
     <>
-      <Header />
-
-      <Mushroom />
-      <About />
-      <Range />
-      <Delivery />
-      <Area />
-      <Price />
-      <Stroage />
-      <Orders />
-      <Cannabis />
-      <Alert />
-      <Classifications />
-      <Items />
-      <News />
-      <Teddy />
-      <Hours />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Headpart />} />
+        <Route path="/Main" element={<Main />} />
+      </Routes>
     </>
   );
 }

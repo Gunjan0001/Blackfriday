@@ -3,6 +3,7 @@ import { Container, Form } from "react-bootstrap";
 import logo from "../assets/images/png/logo.png";
 import search from "../assets/images/png/search.png";
 import deletebox from "../assets/images/png/deletebox.png";
+import { Link } from "react-router-dom";
 const Nav = () => {
   const [openNav, setopenNav] = useState(true);
   if (openNav) {
@@ -24,14 +25,16 @@ const Nav = () => {
               </li>
             </ul>
             <ul className="ps-0 mb-0 d-none d-lg-flex gap-4 align-items-center ">
-              <li>
-                <a
-                  href="#header"
-                  className="  ff_montserrat  fw_regular  fs_base text-white nav_links"
-                >
-                  HOME
-                </a>
-              </li>
+              <Link to="/">
+                <li>
+                  <a
+                    href="#header"
+                    className="  ff_montserrat  fw_regular  fs_base text-white nav_links"
+                  >
+                    HOME
+                  </a>
+                </li>
+              </Link>
               <li>
                 <a
                   href="#shop"
@@ -48,14 +51,16 @@ const Nav = () => {
                   ABOUT
                 </a>
               </li>{" "}
-              <li>
-                <a
-                  href="#"
-                  className=" ff_montserrat  fw_regular   fs_base text-white nav_links"
-                >
-                  CONTACT
-                </a>
-              </li>{" "}
+              <Link to="/Main">
+                <li>
+                  <a
+                    href="#"
+                    className=" ff_montserrat  fw_regular   fs_base text-white nav_links"
+                  >
+                    CONTACT
+                  </a>
+                </li>{" "}
+              </Link>
               <li>
                 <a
                   href="#faq"
