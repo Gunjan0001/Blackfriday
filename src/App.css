@@ -304,7 +304,36 @@
   border: transparent;
 }
 
+/* loading */
+.overflow_hidden_preloder {
+  overflow: hidden;
+  position: relative;
+}
 
+.loding_position {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+}
+
+.animation_loding {
+  animation: loading_animate 1s alternate linear infinite;
+}
+
+@keyframes loading_animate {
+  0% {
+    transform: scale(1);
+  }
+
+  0% {
+    transform: scale(1.5);
+  }
+}
 
 /* mushroom */
 .background {
@@ -817,6 +846,9 @@
     top: 200px;
   }
 
+  .w_xsm_50 {
+    width: 50%;
+  }
 }
 
 @media(min-width:576px) {
@@ -842,6 +874,10 @@
 
   .mw_340 {
     max-width: 340px;
+  }
+
+  .w_sm_13 {
+    width: 13%;
   }
 
 }
